@@ -1,96 +1,70 @@
 # AIDOL ✦ K-POP Agency
+AI Idol Training Simulation Game — Prototype
 
-**AI Idol Training Simulation Game — Demo / PoC**
-
-![AIDOL](https://raw.githubusercontent.com/muffinbiter/aidol/main/logo_aidol.png)
-
----
-
-## 🎮 Play Now
-
-**[https://muffinbiter.github.io/aidol/](https://muffinbiter.github.io/aidol/)**
+🎮 Play Demo  
+https://muffinbiter.github.io/aidol/
 
 ---
 
-## 📖 Overview
+## Overview
 
-Step into the role of a head producer at a newly founded K-POP agency.
-Discover trainees, shape their personas, manage their weekly schedules, and lead them all the way to debut.
+**AIDOL** is a K-POP agency management simulation where the player takes the role of a head producer at a newly founded entertainment company.
 
-> AIDOL combines **strategic stat management** with **emotional AI-driven member interactions** — think Princess Maker meets K-POP visual novel.
+Players discover trainees, design their personas, manage weekly training schedules, and guide the group toward debut.
 
----
+The project explores how **AI-driven character interaction** can enhance simulation gameplay, combining stat-based management with emotional character dialogue.
 
-## ✨ Demo Features
-
-- 🎴 **Title Screen** — Animated logo with stage background
-- 🏢 **Group Setup** — Set group name, member count, and concept
-- 🃏 **Casting** — Flip cards to reveal trainees, select 3 members
-- 💫 **Persona Setup** — Customize each member's name, position, and personality
-- 🏠 **Main Hub** — Office HQ with member stat cards
-- ⚡ **AP System** — 12 AP per week — spend wisely across schedules
-- 📅 **Schedule** — Assign weekly training to each member
-- 🎬 **Practice Scene** — Result scene with Princess Maker-style narrative
-- 💬 **Member Chat** — Talk to members with persona-based replies
-- 📊 **Weekly Report** — Radar chart + fandom gauge after each week
-- 💌 **Member Message** — A random member reaches out after the week ends
-- 🎲 **Random Event** — Week 1 triggers the Center Position Conflict event
+Inspired by *Princess Maker* and narrative visual novels.
 
 ---
 
-## 🗂️ File Structure
+## Core Gameplay Loop
 
-```
-aidol/
-├── index.html                  # Main game file (single file, no dependencies)
-├── logo_aidol.png
-├── bg_title.png
-├── bg_office.png
-├── card_hana.png
-├── card_luna.png
-├── card_sei.png
-├── scene_hana_talk.png
-├── scene_luna_talk.png
-├── scene_sei_talk.png
-├── scene_hana_practice.png
-├── scene_luna_practice.png
-├── scene_sei_practice.png
-└── event_center_conflict.png
-```
+Discover trainees → Define personas → Assign weekly schedules →  
+Interact with members → Grow stats and fandom → Progress toward debut.
 
 ---
 
-## 🎨 Design
+## Key Features
 
-| | |
-|---|---|
-| **Aesthetic** | Dark navy & gold — tarot card meets visual novel |
-| **Font** | Cormorant Garamond (display) + Noto Serif KR (dialogue) |
-| **Reference** | Oshi no Ko anime art style |
-| **Platform** | Mobile-first, 390×844px (iPhone portrait) |
+**Casting System**  
+Flip cards to discover trainees and recruit members.
 
----
+**Persona Builder**  
+Define each member’s name, position, and personality traits.
 
-## 🧩 Tech Stack
+**Agency Management**  
+Use a weekly AP system to allocate training schedules.
 
-- Vanilla HTML / CSS / JavaScript
-- Single file, zero dependencies
-- Hosted via GitHub Pages
+**Narrative Practice Scenes**  
+Training results are presented through short narrative events.
 
----
+**Character Interaction**  
+Members respond with personality-based dialogue.
 
-## 🗺️ Roadmap
+**Weekly Progress Report**  
+Radar chart visualization of member growth and fandom level.
 
-- [ ] Real-time Claude API integration for member dialogue
-- [ ] AI image generation from persona input
-- [ ] 52-week training + debut system
-- [ ] Multi-ending based on stats, fandom & choices
-- [ ] Additional members, events, and spaces
-- [ ] Mini character animations
-- [ ] In-game coin system
+**Dynamic Events**  
+Story-driven conflicts between members affect the group’s development.
 
 ---
 
-## 📝 License
+## Tech Stack
 
-Demo / Proof of Concept — All character assets and backgrounds are original AI-generated illustrations.
+HTML5 / CSS / JavaScript  
+Single-file architecture  
+Mobile-first UI (390×844 portrait)  
+GitHub Pages deployment
+
+---
+
+## Project Background
+
+AIDOL was built as a prototype exploring **AI-assisted character interaction in simulation games**, focusing on how player decisions, personality systems, and narrative feedback can create more emotionally engaging management gameplay.
+
+---
+
+## License
+
+Prototype project for demonstration purposes.
